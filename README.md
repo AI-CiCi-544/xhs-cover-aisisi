@@ -1,4 +1,6 @@
-# xhs-tech-cover
+# xhs-cover-aisisi
+
+> 技能名 `xhs-tech-cover`。装进 skill 目录时，目录名要与 `SKILL.md` 里的 `name` 一致，克隆后重命名即可：`mv xhs-cover-aisisi xhs-tech-cover`。
 
 小红书竖版 3:4（1080×1440）科技未来感封面制作技能，用于 AI Agent（Claude Code / 豆包 / 任意支持 SKILL.md 的运行时）。
 
