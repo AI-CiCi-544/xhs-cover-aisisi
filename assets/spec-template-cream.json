@@ -1,0 +1,72 @@
+{
+  "platform": "xiaohongshu",
+  "size": [
+    1080,
+    1440
+  ],
+  "background": {
+    "type": "image",
+    "path": "bg.png",
+    "fit": "cover",
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "zoom": 1.0,
+    "brightness": 1.0,
+    "contrast": 1.02,
+    "saturation": 1.0
+  },
+  "treatments": [
+    {
+      "type": "vignette",
+      "strength": 0.06,
+      "color": "#8A7F6E"
+    }
+  ],
+  "shapes": [
+    {
+      "type": "line",
+      "x1": 0.075,
+      "y1": 0.072,
+      "x2": 0.34,
+      "y2": 0.072,
+      "width": 2,
+      "color": "#16202E",
+      "opacity": 0.4
+    }
+  ],
+  "texts": [
+    {
+      "role": "title",
+      "content": "把主题\n写成两行",
+      "x": 0.072,
+      "y": 0.092,
+      "box_width": 0.64,
+      "box_height": 0.22,
+      "font": "heavy",
+      "color": "#141C2A",
+      "line_spacing": 1.1,
+      "stroke": {
+        "width": 2,
+        "color": "#FFFBF2"
+      },
+      "shadow": {
+        "dx": 0,
+        "dy": 3,
+        "blur": 10,
+        "color": "#7A7060",
+        "opacity": 0.18
+      },
+      "auto_fit": {
+        "min": 120,
+        "max": 142,
+        "max_lines": 2
+      }
+    }
+  ],
+  "output": {
+    "path": "cover.png",
+    "preview_width": 220
+  }
+}

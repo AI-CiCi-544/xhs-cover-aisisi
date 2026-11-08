@@ -1,0 +1,107 @@
+{
+  "platform": "xiaohongshu",
+  "size": [1080, 1440],
+  "background": {
+    "type": "image",
+    "path": "cover-bg.png",
+    "fit": "cover",
+    "focus": [0.5, 0.5],
+    "zoom": 1.0,
+    "brightness": 0.94,
+    "contrast": 1.08,
+    "saturation": 1.0
+  },
+  "treatments": [
+    {
+      "type": "scrim",
+      "side": "left",
+      "color": "#03060C",
+      "opacity": 0.8,
+      "height": 0.58,
+      "feather": 1.7
+    },
+    {
+      "type": "scrim",
+      "side": "bottom",
+      "color": "#03060C",
+      "opacity": 0.62,
+      "height": 0.30,
+      "feather": 1.3
+    },
+    {
+      "type": "vignette",
+      "strength": 0.22,
+      "color": "#000000"
+    }
+  ],
+  "shapes": [
+    {
+      "type": "line",
+      "x1": 0.072,
+      "y1": 0.545,
+      "x2": 0.36,
+      "y2": 0.545,
+      "width": 3,
+      "color": "#35E0FF",
+      "opacity": 0.55
+    },
+    {
+      "type": "line",
+      "x1": 0.072,
+      "y1": 0.912,
+      "x2": 0.46,
+      "y2": 0.912,
+      "width": 2,
+      "color": "#35E0FF",
+      "opacity": 0.22
+    }
+  ],
+  "texts": [
+    {
+      "role": "badge",
+      "content": "教程",
+      "x": 0.068,
+      "y": 0.098,
+      "size": 32,
+      "font": "heavy",
+      "color": "#04121A",
+      "letter_spacing": 0.08,
+      "highlight": {
+        "color": "#35E0FF",
+        "mode": "block",
+        "radius": "pill",
+        "pad_x": 0.62,
+        "pad_y": 0.36
+      }
+    },
+    {
+      "role": "title",
+      "content": "3 步搭好\nAI 工作流",
+      "x": 0.07,
+      "y": 0.60,
+      "box_width": 0.545,
+      "box_height": 0.26,
+      "font": "heavy",
+      "color": "#F2F9FF",
+      "line_spacing": 1.1,
+      "stroke": {"width": 7, "color": "#05070F"},
+      "shadow": {"dx": 6, "dy": 8, "blur": 16, "color": "#000000", "opacity": 0.55},
+      "auto_fit": {"min": 110, "max": 168, "max_lines": 2}
+    },
+    {
+      "role": "sub",
+      "content": "附可复用模板",
+      "x": 0.072,
+      "y": 0.818,
+      "box_width": 0.46,
+      "size": 40,
+      "font": "medium",
+      "color": "#8FD8EA",
+      "letter_spacing": 0.02
+    }
+  ],
+  "output": {
+    "path": "cover.png",
+    "preview_width": 220
+  }
+}
