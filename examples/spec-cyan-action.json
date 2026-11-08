@@ -1,0 +1,80 @@
+{
+  "platform": "xiaohongshu",
+  "size": [
+    1080,
+    1440
+  ],
+  "background": {
+    "type": "image",
+    "path": "bg-cyan-action.png",
+    "fit": "cover",
+    "focus": [
+      0.5,
+      0.412
+    ],
+    "zoom": 1.05,
+    "brightness": 0.95,
+    "contrast": 1.06,
+    "saturation": 1.02
+  },
+  "treatments": [
+    {
+      "type": "scrim",
+      "side": "top",
+      "color": "#050A1A",
+      "opacity": 0.6,
+      "height": 0.32,
+      "feather": 1.4
+    },
+    {
+      "type": "vignette",
+      "strength": 0.2,
+      "color": "#000000"
+    }
+  ],
+  "shapes": [
+    {
+      "type": "line",
+      "x1": 0.07,
+      "y1": 0.078,
+      "x2": 0.36,
+      "y2": 0.078,
+      "width": 3,
+      "color": "#35E0FF",
+      "opacity": 0.6
+    }
+  ],
+  "texts": [
+    {
+      "role": "title",
+      "content": "把人生发给\nAI 分析",
+      "x": 0.06,
+      "y": 0.085,
+      "box_width": 0.62,
+      "box_height": 0.2,
+      "font": "heavy",
+      "color": "#F2F9FF",
+      "line_spacing": 1.1,
+      "stroke": {
+        "width": 7,
+        "color": "#05070F"
+      },
+      "shadow": {
+        "dx": 6,
+        "dy": 8,
+        "blur": 16,
+        "color": "#000000",
+        "opacity": 0.55
+      },
+      "auto_fit": {
+        "min": 110,
+        "max": 136,
+        "max_lines": 2
+      }
+    }
+  ],
+  "output": {
+    "path": "cover-cyan-action.png",
+    "preview_width": 220
+  }
+}

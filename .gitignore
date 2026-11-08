@@ -9,14 +9,19 @@ assets/persona/alternates/*
 !assets/persona/face-card.md
 !assets/persona/.gitkeep
 
-# 生成产物
+# 生成产物（默认全部忽略）
 *.png
 *.jpg
-!assets/**/*.png
-!assets/**/*.jpg
 *_thumb-220.jpg
 spec-*.json
+
+# 例外：模板、示例底图、示例 spec、README 用的效果图
+!assets/**/*.png
+!assets/**/*.jpg
 !assets/spec-template*.json
+!examples/bg-*.png
+!examples/spec-*.json
+!docs/preview/*.jpg
 
 # 系统与缓存
 .DS_Store
